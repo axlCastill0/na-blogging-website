@@ -17,15 +17,6 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-a {
-	font-weight: 500;
-	color: #646cff;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #53ddf2;
-}
-
 body {
 	margin: 0;
 	min-width: 320px;
@@ -39,7 +30,7 @@ button {
 	font-size: 1em;
 	font-weight: 500;
 	font-family: inherit;
-	background-color: #1a1a1a;
+	background-color: #292828;
 	cursor: pointer;
 	transition: border-color 0.25s;
 }
@@ -54,12 +45,9 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
-		background-color: #ffffff;
-	}
-	a:hover {
-		color: #747bff;
+		background-color: #fcfaf4;
 	}
 	button {
-		background-color: #f9f9f9;
+		background-color: #f1e8dd;
 	}
 }
