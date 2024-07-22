@@ -1,11 +1,19 @@
+import Navbar from "./components/Navbar"
+import Home from "./views/Home"
+import About from "./views/About"
+import { Route, Routes } from 'react-router-dom'
+
 function App() {
   return (
-    <div className="flex flex-col">
-      <h1 className="font-bold text-red-600 text-9xl">Hello there</h1>      
-      <button onClick={() => {
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank')
-      }}>click me</button>
-    </div>
+    <>
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </>
   )
 }
 
