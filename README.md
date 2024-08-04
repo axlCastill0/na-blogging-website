@@ -8,8 +8,8 @@ A secure login and registration system for users.
 Mobile-friendly and optimized for all different kind of devices.
 ### CRUD Operations: 
 reate, read, update, and delete blog posts.
-### Rich Text Editor: U
-ser-friendly interface for writing and editing posts.
+### Rich Text Editor: 
+User-friendly interface for writing and editing posts.
 ### Tagging & Categories: 
 Organize posts with tags and categories, and allow users to search and sort.
 ### Commenting System: 
