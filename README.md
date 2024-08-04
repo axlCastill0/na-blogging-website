@@ -7,7 +7,7 @@ A secure login and registration system for users.
 ### Responsive Design: 
 Mobile-friendly and optimized for all different kind of devices.
 ### CRUD Operations: 
-reate, read, update, and delete blog posts.
+Create, read, update, and delete blog posts.
 ### Rich Text Editor: 
 User-friendly interface for writing and editing posts.
 ### Tagging & Categories: 
