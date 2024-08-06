@@ -6,7 +6,7 @@
   .accordion-trigger {
     display: block;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: blue;
     cursor: pointer;
     border: none;
     text-align: left;

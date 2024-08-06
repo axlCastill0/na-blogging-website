@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import {
     Accordion,
     AccordionContent,
@@ -7,21 +8,15 @@ import {
   } from "../components/Accordion";
 
 export default function Navbar() {
+    const [isActive, setIsActive] = useState(false);
+
     return(
         <div className="flex justify-between items-center p-4 border-b-2">
             <Link to="/" className="text-4xl">Na Blog</Link>
-            <ul className="flex gap-4">                                   
-                <li>
-                    <Link to="/about">About Me!</Link>
-                </li>
-                <li>
-                    <Link to="/login">Login</Link> 
-                </li>               
-            </ul>
             <Accordion type="single" collapsible>
             <AccordionItem value="menu">
-                <AccordionTrigger>Menu</AccordionTrigger>
-                <AccordionContent>
+                <AccordionTrigger onClick={() => setIsActive(!isActive)}>Menu</AccordionTrigger>
+                <AccordionContent active={isActive}>
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -37,5 +32,5 @@ export default function Navbar() {
             </AccordionItem>
             </Accordion>
         </div>
-    )
-}
+    );
+};
